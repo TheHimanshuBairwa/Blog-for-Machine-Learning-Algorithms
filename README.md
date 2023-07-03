@@ -1,4 +1,4 @@
-# Blog-for-Machine-Learning-Algorithms
+# Blog-Page-for-Machine-Learning-Algorithms
 
 
 
