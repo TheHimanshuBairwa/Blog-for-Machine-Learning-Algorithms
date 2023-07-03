@@ -1,3 +1,186 @@
 # Blog-for-Machine-Learning-Algorithms
 
-<img width="1438" alt="blog website" src="https://github.com/TheHimanshuBairwa/Blog-for-Machine-Learning-Algorithms/assets/88283732/e30ac14d-45fd-40ce-af31-91ac30e0e533">
+
+
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>My Blog Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <meta name="google" content="notranslate" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+    </head>
+
+    <div class="container my-4">
+        
+        <img src="/static/blog/image/1.jpeg " alt="Cyphan logo" class="d-block mx-auto" width='50%' height = '25%'   />
+       
+    </div>
+
+    <body>
+
+        
+
+        <style>
+            body {
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            background-color: #000080;
+
+           
+
+        }
+        .shadow {
+            box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+        }
+        .btn-danger {
+            color: #fff;
+            background-color: #f00000;
+            border-color: #dc281e;
+        }
+        .masthead {
+            background: #3398E1;
+            height: auto;
+            padding-bottom: 15px;
+            box-shadow: 0 16px 48px #E3E7EB;
+            padding-top: 10px;
+        }
+    </style>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="mainNav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">My Blog Page</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="#">About</a>
+                        </li>
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="#">Policy</a>
+                        </li>
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+
+        
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        background-color: #fdfdfd;
+    }
+
+    .head_text {
+        color: white;
+    }
+
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+    }
+</style>
+
+<header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h3 class=" site-heading my-4 mt-3 text-white"> Welcome to my awesome Blog </h3>
+                    <p class="text-light">Machine Learning Algorithms are available here!! 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 mt-3 left">
+            
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Decision Tree</h2>
+                    <p class="card-text text-muted h6">himanshu | July 3, 2023, 3:33 p.m. </p>
+                    <p class="card-text">A decision tree is a flowchart like tree structure where each internal node denotes the feature, branches denote the rules and the leaf nodes denote the result of the algorithm. It is a versatile supe</p>
+                    <a href="/decision-tree/" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Support Vector Machine</h2>
+                    <p class="card-text text-muted h6">himanshu | July 3, 2023, 1:31 p.m. </p>
+                    <p class="card-text">Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classificat</p>
+                    <a href="/support-vector-machine/" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Logistic Regression</h2>
+                    <p class="card-text text-muted h6">himanshu | July 3, 2023, 12:01 p.m. </p>
+                    <p class="card-text">This is a part of supervised learning methods. It is used for binary classification i.e. two class classification</p>
+                    <a href="/logistic-regression/" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Linear Regression</h2>
+                    <p class="card-text text-muted h6">himanshu | July 3, 2023, 11:56 a.m. </p>
+                    <p class="card-text">This is a supervised machine learning algorithms, it is used to fit linear models with high dimensionality.</p>
+                    <a href="/linear-regression/" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            
+        </div>
+         
+
+            <style>
+                    .card{
+                        box-shadow: 0 16px 48px #E3E7EB;
+                    }
+
+            </style>
+
+            <!-- Sidebar Widgets Column -->
+            <div class="col-md-4 float-right ">
+            <div class="card my-4">
+                    <h5 class="card-header">About Us</h5>
+                <div class="card-body">
+                    <p class="card-text"> This awesome website is made my Himanshu, who is currently working as software developer in Songdew, adding to this he completed his eductation from IIT Guwahati in Machine Learning domain..!</p>
+                    <p class="card-text"> For more details you can visit his github profile.</p>
+                    <a href="https://github.com/TheHimanshuBairwa"
+                    class="btn btn-danger">Know more!</a>
+                </div>
+            </div>
+            </div>
+
+         
+    </div>
+</div>
+
+        <!-- Footer -->
+        <footer class="py-3 bg-grey">
+            <p class="m-0 text-dark text-center ">Copyright &copy; Himanshu Bairwa</p>
+        </footer>
+    </body>
+</html>
